@@ -3,7 +3,6 @@
 import Link from "next/link";
 import styled from "styled-components"
 
-
 export default function Header(){
 
   return(
@@ -25,7 +24,7 @@ export default function Header(){
       </div>
     </Section>
   )
-};
+}
 
 const Section = styled.header`
   padding: 20px 0;

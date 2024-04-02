@@ -1,8 +1,6 @@
 'use client'
 import styled from "styled-components"
 
-
-
 export default function Footer(){
 
   return(
@@ -14,7 +12,7 @@ export default function Footer(){
       </div>
     </Section>
   )
-};
+}
 
 const Section = styled.footer`
   padding: 10px 0px;
